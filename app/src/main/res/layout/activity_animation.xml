@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.monkey.mobilefinal.AnimationActivity">
+
+    <Button
+        android:id="@+id/bt"
+        android:text="Alpha"
+        android:layout_height="50dp"
+        android:layout_width="100dp">
+    </Button>
+
+    <TextView
+        android:id="@+id/anim_tv"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="O"
+        android:gravity="center"
+        android:textSize="10sp"
+        android:background="@android:color/holo_blue_bright"/>
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>

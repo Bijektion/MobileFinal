@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.monkey.mobilefinal.view.Airport">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/airport"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hartsfield–Jackson Atlanta International Airport (IATA: ATL, ICAO: KATL, FAA LID: ATL), known locally as Atlanta Airport, Hartsfield, or Hartsfield–Jackson, is an international airport seven miles (11 km) south of Atlanta's central business district, in the U.S. state of Georgia. It has been the world's busiest airport by passenger traffic since 1998, and by number of landings and take-offs from 2005 to 2013, and in 2015.[2][3] Hartsfield–Jackson held its ranking as the world's busiest airport in 2012, both in passengers and number of flights, by accommodating 100 million passengers (more than 260,000 passengers daily) and 950,119 flights.[4][5][6] Many of the nearly one million flights are domestic flights from within the United States, where Atlanta serves as a major hub for travel throughout the Southeastern United States. The airport has 207 domestic and international gates.[7]"
+            />
+    </ScrollView>
+
+</LinearLayout>

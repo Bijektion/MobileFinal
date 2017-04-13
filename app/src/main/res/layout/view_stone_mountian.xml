@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.monkey.mobilefinal.view.StoneMountian">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/stonem"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stone Mountain is a quartz monzonite dome monadnock and the site of Stone Mountain Park in Stone Mountain, Georgia. At its summit, the elevation is 1,686 feet (514 m) MSL and 825 feet (251 m) above the surrounding area. Stone Mountain is well-known not only for its geology, but also for the enormous rock relief on its north face, the largest bas-relief in the world.[1] The carving depicts three Confederate figures during the Civil War: Stonewall Jackson, Robert E. Lee, and Jefferson Davis."
+            />
+    </ScrollView>
+
+</LinearLayout>
